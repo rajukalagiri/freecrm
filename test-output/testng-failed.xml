@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.extentreportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.test.LoginPageTest">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="titleValidation"/>
+          <include name="browserInitilaize"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.LoginPageTest -->
+      <class name="com.crm.qa.test.ContactPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="browserInitilaize"/>
+          <include name="newcontact"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.ContactPageTest -->
+      <class name="com.crm.qa.test.HomePageTest">
+        <methods>
+          <include name="clickcontact"/>
+          <include name="logoValidation"/>
+          <include name="tearDown"/>
+          <include name="browserInitilaize"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

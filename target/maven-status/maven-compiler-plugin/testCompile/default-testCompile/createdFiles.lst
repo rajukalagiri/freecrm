@@ -1,0 +1,4 @@
+com\crm\qa\test\ContactPageTest.class
+com\crm\qa\test\HomePageTest.class
+com\crm\qa\test\LoginPageTest.class
+com\crm\qa\test\SignUpPageTest.class
