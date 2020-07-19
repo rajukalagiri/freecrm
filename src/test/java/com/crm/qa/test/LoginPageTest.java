@@ -11,6 +11,7 @@ import com.crm.qa.pages.Homepage;
 import com.crm.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase {
+//testing
 	LoginPage lp;
 	Homepage homepage;
 	
@@ -18,6 +19,7 @@ public class LoginPageTest extends TestBase {
 	public void browserInitilaize()
 	{
 		initializtion();
+
 		lp=new LoginPage();
 		
 	}
